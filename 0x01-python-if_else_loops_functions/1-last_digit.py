@@ -8,5 +8,5 @@ greater than 5')
 elif last == 0:
     print('Last digit of ' + str(number) + ' is ' + str(last) + ' and is 0')
 elif last < 6 and not 0:
-    print('Last digit of ' + str(number) + ' is ' + str(last) + ' and is less \
-than 6 and not zero')
+    print('Last digit of ' + '-' + str(number) + ' is ' + str(last) + ' and \
+ is less than 6 and not zero')
