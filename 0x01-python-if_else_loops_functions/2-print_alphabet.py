@@ -1,4 +1,3 @@
-letter = 'a'
-if letter != 'z'
-	print(letter end'')
-	letter + 1
+#!/usr/bin/python3
+for a in range(97,123)
+    print("{}".format(chr(a)), end="")
