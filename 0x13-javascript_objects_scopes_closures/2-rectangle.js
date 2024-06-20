@@ -1,10 +1,9 @@
 #!/usr/bin/node
 module.exports = class Rectangle {
   constructor (w, h) {
-    if (height <= 0 || width <= 0) {
-      return {};
+    if ((w > 0) && (h > 0)) {
+      this.width = h;
+      this.height = h;
     }
-    this.width = h;
-    this.height = h;
   }
 };
