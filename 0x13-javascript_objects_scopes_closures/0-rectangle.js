@@ -1,5 +1,3 @@
 #!/usr/bin/node
-class Rectangle {
-  constructor() {
-  }
-}
+module.esports = class Rectangle {
+};
