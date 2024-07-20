@@ -5,4 +5,3 @@ for i in range(122, 96, -1):  # ASCII values from 'z' to 'a'
         print("{}".format(chr(i)), end="")
     else:  # Odd indices for uppercase
         print("{}".format(chr(i - 32)), end="")
-
