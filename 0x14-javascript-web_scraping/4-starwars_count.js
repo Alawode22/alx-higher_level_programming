@@ -18,6 +18,6 @@ request(apiUrl, (error, response, body) => {
 
     console.log(count);
   } else {
-    console.error('Error:', error || `Status code: ${response.statusCode}`);
+    console.error(error || `code: ${response.statusCode}`);
   }
 });
