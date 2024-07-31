@@ -1,4 +1,5 @@
 -- Write a script that lists all Comedy shows in the database hbtn_0d_tvshows
+-- lists all rows of a database corresponding to a column value
 SELECT title
 FROM tv_shows
 LEFT JOIN tv_genres ON tv_genres.id = tv_shows.id
