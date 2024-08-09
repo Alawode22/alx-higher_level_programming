@@ -2,11 +2,12 @@
 """
 MagicClass module.
 
-This module defines the MagicClass which models a circle with methods to 
+This module defines the MagicClass which models a circle with methods to
 calculate the area and circumference based on a given radius.
 """
 
 import math
+
 
 class MagicClass:
     """
@@ -19,8 +20,7 @@ class MagicClass:
         Initializes the MagicClass instance.
 
         Args:
-            radius (int or float): The radius of the circle. Must be a number.
-        
+        radius (int or float): The radius of the circle. Must be a number. 
         Raises:
             TypeError: If radius is not a number (int or float).
         """
