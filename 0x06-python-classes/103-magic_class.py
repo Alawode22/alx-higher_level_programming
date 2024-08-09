@@ -20,7 +20,7 @@ class MagicClass:
         Initializes the MagicClass instance.
 
         Args:
-        radius (int or float): The radius of the circle. Must be a number. 
+        radius (int or float): The radius of the circle. Must be a number.
         Raises:
             TypeError: If radius is not a number (int or float).
         """
