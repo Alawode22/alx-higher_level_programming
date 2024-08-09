@@ -40,4 +40,4 @@ class Square:
             print()
         else:
             row = '#' * self.__size
-        print('\n'.join([row] * self.__size))
+            print('\n'.join([row] * self.__size))
